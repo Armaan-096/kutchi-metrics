@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.stats-section {
+   font-family: "Poppins", sans-serif;
+   background: rgb(0, 0, 0);
+   background: linear-gradient(143deg, rgba(0, 0, 0, 1) 0%, rgb(4, 87, 122) 100%);
+   color: #ffffff;
+   border-radius: 0.7rem;
+   padding: 50px 20px;
+   text-align: center;
+}
+
+.section-title {
+   margin-top: 0;
+   font-size: 2.5rem;
+   margin-bottom: 30px;
+}
+
+.stats-grid {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+}
+
+
+.stat-item {
+   border: 2px solid rgba(255, 255, 255, 0.5);
+   background: #ffffff20;
+   border-radius: 10px;
+   padding: 20px;
+   width: 200px;
+   text-align: center;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s;
+}
+
+.stat-item:hover {
+   transform: scale(1.1);
+}
+
+.stat-item i {
+   font-size: 3rem;
+   margin-bottom: 10px;
+   color: #ffdd00;
+}
+
+.line {
+   margin-top: 0.4rem;
+   margin-bottom: 0.4rem;
+   height: 0.7rem;
+   width: 80%;
+   background: rgb(255, 255, 255);
+   background: linear-gradient(22deg, rgb(255, 255, 255) 20%, rgb(14, 183, 255) 100%);
+   transform: skewX(300deg);
+}
+
+.line1 {
+   margin: 0.7rem 0;
+   height: 0.7rem;
+   width: 50%;
+   background: rgb(0, 0, 0);
+   background: linear-gradient(143deg, rgba(0, 0, 0, 0) 0%, rgb(4, 87, 122) 100%);
+   transform: skewX(60deg);
+}
+
+.stat-item .counter {
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+.stat-item p {
+   margin: 5px 0 0;
+   font-size: 1rem;
+}
